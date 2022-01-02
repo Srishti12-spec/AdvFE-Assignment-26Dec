@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background-color: black;
+  }
+  #logo {
+    width: 40px;
+    margin-left: 2em;
+  }
+  #drive {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+  }
+  .header {
+    font-family: "Product Sans", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 4em;
+    border-bottom: 1px solid #bbbcbd;
+    position: sticky;
+    top: 0px;
+    background-color:blue;
+    width: 100vw;
+  }
+
+  
+  .container {
+    display: flex;
+    font-family: sans-serif;
+  }
+  .left-pane {
+    flex: 1;
+    color: rgb(241, 223, 195);
+    background-color: azure;
+  }
+  .right-pane {
+    flex: 4;
+    background-color: white;
+  }
+  .new {
+    width: 9em;
+    height: 4em;
+    border: none;
+    box-shadow: 0 0 3px black;
+    margin-top: 1em;
+    padding-right: 2em;
+    border-radius: 100px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 2em;
+  }
+
+  .box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .left-pane p {
+    
+    align-items: center;
+    margin-top: 1em;
+    cursor: pointer;
+    color: #2c2c2c;
+    height: 3em;
+    padding-left: 1em;
+    width: 90%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+
+ 
+
+  .content {
+    padding-left: 5em;
+    background-color: #f8f9fa;
+  }
+  .my-drive {
+    margin-left: 1em;
+    font-weight: 100;
+    cursor: pointer;
+  }
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+    height: 3em;
+    margin-left: 10em;
+    margin-right: 3em;
+    border: 1px solid rgb(207, 207, 207);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    
+  }
+
+
+  .grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+  }
+  
+  .list-view{
+    display: none;
+  }
+  .box {
+font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 15em;
+    height: 15em;
+    margin-top: 1em;
+    margin-left: 1em;
+   border-radius: 5px;
+    border: 0px solid rgb(41, 35, 35);
+  }
+
+  .view-btn {
+    display: flex;
+  }
+  progress,
+  pre {
+    margin-left: 1em;
+  }
+  th {
+    background-color: white;
+    width: 17em;
+    height: 3em;
+    font-weight: 100;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(207, 207, 207);
+  }
+  
+  td {
+    text-align: center;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    width: 17em;
+    height: 3em;
+    font-weight: 100;
+  }
+  .folder-name{
+    text-align: left;
+  }
